@@ -1,5 +1,5 @@
-module.exports = {
-  presets: [
-    '@vue/cli-plugin-babel/preset'
-  ]
-}
+console.log(process.env.NODE_ENV)
+
+module.exports = true
+  ? {}
+  : { presets: ['@vue/babel-preset-app'] }
