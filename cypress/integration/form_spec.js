@@ -67,11 +67,11 @@ const formModel = createModel(formMachine).withEvents({
         }
     },
     INVALID_INPUT: {
-        cases: [{ email: 'test@test.' }, { email: '' }],
+        cases: [{ email: 'test@test.' }, { email: ' ' }],
         exec: (cy, event) => {
             cy.get('input')
                 .clear()
-                .type(event.email || ' ')
+                .type(event.email)
         }
     },
     SUBMIT_FORM: (cy) => {
