@@ -1,0 +1,24 @@
+{
+  "title": "Shared state machine",
+  "steps": [
+    {
+      "file": "src/stateMachines/form.js",
+      "line": 3,
+      "description": "Define and export state machine config here",
+      "title": "Define state machine"
+    },
+    {
+      "file": "src/App.vue",
+      "line": 21,
+      "description": "Use state machine in the Vue component",
+      "title": "Import into Vue component"
+    },
+    {
+      "file": "cypress/integration/form_spec.js",
+      "line": 6,
+      "description": "Also use state machine config in the tests",
+      "title": "Import into test suite"
+    }
+  ],
+  "ref": "master"
+}

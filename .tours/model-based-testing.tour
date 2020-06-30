@@ -1,0 +1,46 @@
+{
+  "title": "Model based testing",
+  "steps": [
+    {
+      "file": "cypress/integration/form_spec.js",
+      "line": 6,
+      "description": "Import state machine into test suite",
+      "title": "Import state machine"
+    },
+    {
+      "file": "cypress/integration/form_spec.js",
+      "line": 11,
+      "description": "Extend state machine config to include state validation logic",
+      "title": "Add state verifications"
+    },
+    {
+      "file": "cypress/integration/form_spec.js",
+      "line": 59,
+      "description": "Add logic for the transitions between states",
+      "title": "Add transition logic"
+    },
+    {
+      "file": "cypress/integration/form_spec.js",
+      "line": 85,
+      "description": "Generate test cases from state machine model",
+      "selection": {
+        "start": {
+          "line": 85,
+          "character": 33
+        },
+        "end": {
+          "line": 85,
+          "character": 51
+        }
+      },
+      "title": "Auto generate test cases"
+    },
+    {
+      "file": "cypress/integration/form_spec.js",
+      "line": 92,
+      "description": "Run test for each possible path",
+      "title": "Run test"
+    }
+  ],
+  "ref": "master"
+}
