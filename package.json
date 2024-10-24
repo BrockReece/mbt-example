@@ -15,7 +15,7 @@
     "core-js": "^3.6.5",
     "cypress": "^4.9.0",
     "lodash": "^4.17.21",
-    "vue": "^2.6.11",
+    "vue": "^3.0.0",
     "xstate": "^4.10.0"
   },
   "devDependencies": {
